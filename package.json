@@ -1,0 +1,15 @@
+{
+  "name": "requirejs-demo",
+  "description": "requirejs` demo app",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "author": {
+    "name": "Filip Stenbeck"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "~0.3.0"
+  }
+}
