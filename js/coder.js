@@ -1,7 +1,7 @@
 define(function () {
-    
     "use strict";
-        
+     console.log('Coder');   
+    
     return {
         createCoder : function (firstName, preferedlanguage) {
             var name = firstName || 'unamed';

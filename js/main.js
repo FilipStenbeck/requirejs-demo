@@ -1,9 +1,8 @@
 define(['coder','developerList'], function(coder, developerList) {
     //init
     console.log('Main');
-    developerList.setTitle('List of developers');
    
-    //Create developers list
+    //Create developers array
     var developers = [];
    
     // and add a few awsome developers to it
@@ -12,6 +11,7 @@ define(['coder','developerList'], function(coder, developerList) {
     developers.push(coder.createCoder('The nihilist'));
   
     //Handle DOM-stuff in a seperate module
+    developerList.setTitle('List of developers');
     developerList.createList(developers);
 
 });

@@ -5,9 +5,9 @@ require.config({
   }
 });
 
-  require(['main'], function(){ 
-      console.log('Require');
-  });
+require(['main'], function(){ 
+	console.log('Config');
+});
 
 
 
