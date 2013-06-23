@@ -1,4 +1,4 @@
-##  nackdelen med moduler i många .js filer
+##  Moduler i många .js filer
 
 <ul>
 <li>Svårt att bygga för produktion</li>
