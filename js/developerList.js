@@ -1,7 +1,7 @@
 define(["jquery"], function($) {
 
-  console.log('DeveloperList');
   "use strict";
+  console.log('DeveloperList');
   
   return {
     setTitle : function(text) {
@@ -10,7 +10,10 @@ define(["jquery"], function($) {
     },
     createList : function (developers) {
       developers.forEach(function(developer){
-        $('#awsome-coders').append('<li>' + developer.getName() + ', who believes in ' + developer.getFavScriptingLanguage());
+        $('#awsome-coders').append('<li>' 
+            + developer.getName() 
+            + ', who believes in ' 
+            + developer.getFavScriptingLanguage());
       });
     }
   };
